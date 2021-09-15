@@ -1,2 +1,2 @@
 # eMail
-A simple C# library to send email from any email service
+A simple C# library to quickly send email from any email service
