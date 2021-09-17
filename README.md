@@ -14,7 +14,7 @@ namespace eMailDemo
     {
         static void Main(string[] args)
         {
-            var reciepients = new List<EmailCredentials>
+            var recipients = new List<EmailCredentials>
             {
                 new EmailCredentials("john.doe@example.com", "John Doe"),
                 new EmailCredentials("jane.doe@example.com", "Jane Doe")
@@ -35,9 +35,9 @@ namespace eMailDemo
             email.To("John Doe", "john.doe@example.com");
             email.Cc("John Doe", "john.doe@example.com");
             email.Bcc("John Doe", "john.doe@example.com");           
-            email.ToMany(reciepients);
-            email.CcMany(reciepients);
-            email.BccMany(reciepients);
+            email.ToMany(recipients);
+            email.CcMany(recipients);
+            email.BccMany(recipients);
             email.AddAttachment("book.pdf");
             email.AddAttachments(new string[] { "book.pdf", "textbook.pdf", "data.txt" });
 
