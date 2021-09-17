@@ -31,7 +31,7 @@ namespace eMailDemo
 
             var email = new Email("example.com", 465);
             email.Authenticate("password"); //Use the from email account’s password.
-            email.From("Your Name", "test@example.com");
+            email.From("Your Name", "test@example.com"); //Use the from email address.
             email.To("John Doe", "john.doe@example.com");
             email.Cc("John Doe", "john.doe@example.com");
             email.Bcc("John Doe", "john.doe@example.com");           
