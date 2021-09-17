@@ -1,0 +1,9 @@
+C:\xampp\locale\gh\eMail\eMail\bin\Debug\netstandard2.0\eMail.deps.json
+C:\xampp\locale\gh\eMail\eMail\bin\Debug\netstandard2.0\eMail.dll
+C:\xampp\locale\gh\eMail\eMail\obj\Debug\netstandard2.0\eMail.csprojAssemblyReference.cache
+C:\xampp\locale\gh\eMail\eMail\obj\Debug\netstandard2.0\eMail.AssemblyInfoInputs.cache
+C:\xampp\locale\gh\eMail\eMail\obj\Debug\netstandard2.0\eMail.AssemblyInfo.cs
+C:\xampp\locale\gh\eMail\eMail\bin\Debug\netstandard2.0\eMail.pdb
+C:\xampp\locale\gh\eMail\eMail\obj\Debug\netstandard2.0\eMail.csproj.CoreCompileInputs.cache
+C:\xampp\locale\gh\eMail\eMail\obj\Debug\netstandard2.0\eMail.dll
+C:\xampp\locale\gh\eMail\eMail\obj\Debug\netstandard2.0\eMail.pdb
