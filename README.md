@@ -56,7 +56,7 @@ namespace eMailDemo
             email.AddAttachment("book.pdf");
             email.AddAttachments(new string[] { "book.pdf", "textbook.pdf", "data.txt" });
 
-            email.SendAsText("SOMA Logs", "Test Demo");
+            email.SendAsText("Demo Email", "Test Demo");
         }
     }
 }
@@ -101,7 +101,7 @@ namespace eMailDemo
                                 .BccMany(reciepients)
                                 .AddAttachment("book.pdf")
                                 .AddAttachments(new string[] { "book.pdf", "textbook.pdf", "data.txt" })
-                                .SendAsHTML("SOMA Logs", sb.ToString());
+                                .SendAsHTML("Demo Email", sb.ToString());
         }
     }
 }
