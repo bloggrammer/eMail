@@ -91,8 +91,8 @@ namespace eMailDemo
             sb.Append("</p>");
 
             new Email("example.com", 465)
-                                .Authenticate("ANSWER!@#321")
-                                .From("Your Name", "test@example.com")
+                                .Authenticate("password"); //Use the from email account’s password.
+                                .From("Your Name", "test@example.com"); //Use the from email address.
                                 .To("John Doe", "john.doe@example.com")
                                 .Cc("John Doe", "john.doe@example.com")
                                 .Bcc("John Doe", "john.doe@example.com")
