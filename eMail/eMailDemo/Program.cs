@@ -34,7 +34,7 @@ namespace eMailDemo
                                 .BccMany(reciepients)
                                 .AddAttachment("book.pdf")
                                 .AddAttachments(new string[] { "book.pdf", "textbook.pdf", "data.txt" })
-                                .SendAsHTML("SOMA Logs", sb.ToString());
+                                .SendAsHTML("Email Subject", sb.ToString());
         }
     }
 }
